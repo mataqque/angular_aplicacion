@@ -1,0 +1,20 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w",
+    "dev": "nodemon build/index.js"
+  },
+  "author": "Flavio mataqque",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.3",
+    "promise-mysql": "^4.1.1"
+  }
+}
