@@ -1,2 +1,3 @@
 # angular_aplicacion
-apliacion
+La aplicacion esta basada en angular.
+archivos que no se subieron al repositorio |cliente/node-modules|
