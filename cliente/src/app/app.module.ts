@@ -10,7 +10,14 @@ import { ViajesComponent } from './componentes/viajes/viajes.component';
 import { SliderComponent } from './componentes/slider/slider.component';
 import { ReactiveFormsModule } from "@angular/forms";
 import { FormBuilder } from '@angular/forms';
+import { RouterModule, Routes} from "@angular/router";
+import { ConsultaComponent } from './componentes/consulta/consulta.component';
 
+const rutas:Routes = [
+  {
+    path:"login",component:LoginComponent
+  }
+]
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,12 +25,14 @@ import { FormBuilder } from '@angular/forms';
     NavegacionComponent,
     LoginComponent,
     ViajesComponent,
-    SliderComponent
+    SliderComponent,
+    ConsultaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    RouterModule.forRoot(rutas)
   ],
   providers: [],
   bootstrap: [AppComponent]

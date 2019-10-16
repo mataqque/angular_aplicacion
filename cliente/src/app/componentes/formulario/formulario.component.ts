@@ -20,5 +20,6 @@ export class FormularioComponent implements OnInit {
   }
   ngOnInit() {
   }
-
+  onSaveForm(){
+  }
 }

@@ -7,16 +7,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-            <a class="nav-link" href="#"><p>Menu principal </p><i class="fas fa-home"></i></a>   
+            <a class="nav-link" [routerLink]="['']"><p>Menu principal </p><i class="fas fa-home"></i></a>   
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#"><p>Quienes somos </p><i class="fas fa-users"></i></a>
         </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><p>Contacto </p><i class="fas fa-comment-alt"></i></a>
+                <a class="nav-link" href="#" tabindex="-1" [routerLink]="['consulta']" aria-disabled="true"><p>consulta</p><i class="fas fa-comment-alt"></i></a>
                 </li>
         <li class="nav-item pl-4 pr-4">
-            <button class="btn btn-success">Iniciar Sesión</button>
+            <button class="btn btn-success" [routerLink]="['login']">Iniciar Sesión</button>
         </li>
         <li class="nav-item">
             <button class="btn btn-info px-4 ">Registro...</button>

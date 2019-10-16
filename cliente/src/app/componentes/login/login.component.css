@@ -1,0 +1,29 @@
+#imagen_display{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+#mensaje_error{
+    text-align: center;
+}
+#formulario{
+    width: 300px;
+    height: 350px;
+    display: block;
+    margin: auto;
+    left: 0px;top:0px;bottom: 0px;right: 0px;
+    position: absolute;
+
+    padding: 0px 30px;
+}
+.form{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 7px;
+    margin: 10px 0px; 
+    font-size: 18px;
+    border-radius: 5px;
+    border:1px solid rgba(0, 0, 0, 0.384);
+}
+#button:hover{cursor: pointer;color: royalblue;transform: scale(1.03)}

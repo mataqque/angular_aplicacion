@@ -1,1 +1,13 @@
-<p>login works!</p>
+<div id="formulario">
+    <div id="imagen_icono"><img id="imagen_display" src="../../assets/recurso/github.png" alt=""></div>
+    <p id='mensaje_error'>---</p>
+    <input class="form" type="text" name="usuario" placeholder="usuario" >
+    <input  class="form" type="password" name="password" placeholder="password">
+    <button id="button" class="form" type="submit" name="submit">Ingresar</button>
+    <p class="text-center"><a href="">Click Registrarse</a></p>
+</div>
+<script>
+ window.sr = ScrollReveal();
+sr.reveal('#formulario',{duration:3000,origin:'top',distance:'10px'});
+sr.reveal('#navbar',{duration:3000,origin:'top',distance:'10px'});
+</script>
