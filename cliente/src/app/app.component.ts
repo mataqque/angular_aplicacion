@@ -8,5 +8,6 @@ import { FormGroup, FormControl } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-    constructor() { }
+  
+    constructor() { console.log() }
 }

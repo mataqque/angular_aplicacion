@@ -11,8 +11,13 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                   
+                  <tr *ngFor="let lista of datos; index as i">
+                        <th scope="row" >{{i}}</th>
+                        <th>{{lista.nombre}}</th>
+                        <th>{{lista.apellido}}</th>
+                        <th>{{lista.dni}}</th>
+                        <th>{{lista.sexo}}</th>
+                        <th>{{lista.edad}}</th>
                   </tr>
                 </tbody>
               </table>
