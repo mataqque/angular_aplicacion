@@ -1,6 +1,10 @@
 .navbar-brand{
     font-family: 'Leckerli One', cursive;
 }
+.active>a{
+    color: white!important;
+    font-weight: bold;
+}
 @media(max-width:576px){
     
     .contenedor_navbar{

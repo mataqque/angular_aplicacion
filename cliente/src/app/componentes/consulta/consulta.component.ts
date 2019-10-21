@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./consulta.component.css']
 })
 export class ConsultaComponent implements OnInit {
+  show:boolean = true;
   datos:any=[
     {nombre:"flavio",apellido:"mataqque",dni:72403398,sexo:"masculino",edad:23},
     {nombre:"juan",apellido:"arevalo",dni:43902030,sexo:"masculino",edad:21},

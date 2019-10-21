@@ -6,15 +6,15 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-            <a class="nav-link" [routerLink]="['']"><p>Menu principal </p><i class="fas fa-home"></i></a>   
+        <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]="['home']"><p>Menu principal </p><i class="fas fa-home"></i></a>   
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#"><p>Quienes somos </p><i class="fas fa-users"></i></a>
+        <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]="['somos']"><p>Quienes somos </p><i class="fas fa-users"></i></a>
         </li>
-            <li class="nav-item">
+        <li class="nav-item" routerLinkActive="active">
                 <a class="nav-link" href="#" tabindex="-1" [routerLink]="['consulta']" aria-disabled="true"><p>consulta JSON Datos</p><i class="fas fa-comment-alt"></i></a>
-                </li>
+        </li>
         <li class="nav-item pl-4 pr-4">
             <button class="btn btn-success" [routerLink]="['login']">Iniciar Sesión</button>
         </li>
